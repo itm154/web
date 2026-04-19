@@ -12,6 +12,7 @@
     "astro": "astro",
     "format": "prettier --write .",
     "generate-types": "wrangler types",
+    "deploy-preview": "bun run build && wrangler versions upload --preview-alias preview",
     "deploy": "bun run build && wrangler deploy"
   },
   "dependencies": {

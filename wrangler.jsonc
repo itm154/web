@@ -3,6 +3,13 @@
   "compatibility_flags": ["global_fetch_strictly_public"],
   "name": "web",
   "main": "@astrojs/cloudflare/entrypoints/server",
+  "preview_urls": true,
+  "routes": [
+    {
+      "pattern": "itm154.com",
+      "custom_domain": true
+    }
+  ],
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS"
